@@ -1,0 +1,87 @@
+
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="column2" id="inventoryGrid">
+    <div class="row">
+
+        <div class="col-xs-3 offset-3-12">
+
+            <div class="pic morph">
+                <img id="item1" src="img/item1.jpg" alt="3 Musketeers" title="3 Musketeers" class="img-rounded img-responsive inventory-img" style="width:128px;height:128px">
+                <h5 id="itemTag1" style="text-align: center"></h5>
+            </div>
+        </div>
+        <div class="col-xs-3 offset-6-12">
+            <div class="pic morph">
+                <img id="item2" src="img/item2.jpg" alt="C4 pre-workout" title="Time to get PUMPED!" class="img-rounded img-responsive inventory-img" style="width:128px;height:128px">
+                <h5 id="itemTag2" style="text-align: center"></h5>
+
+            </div>
+
+        </div>
+        <div class="col-xs-3 offset-9-12">
+            <div class="pic morph">
+                <img id="item3" src="img/item3.jpg" alt="5th Avenue" title="5th Avenue" class="img-rounded img-responsive inventory-img" style="width:128px;height:128px">
+                <h5 id="itemTag3" style="text-align: center"></h5>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-xs-3 offset-3-12">
+            <div class="pic morph">
+                <img id="item4" src="img/item4.jpg" alt="MP Protien Powder" title="Protien for Muscle Repair" class="img-rounded img-responsive inventory-img" style="width:128px;height:128px">
+                <h5 id="itemTag4" style="text-align: center"></h5>
+
+            </div>
+
+        </div>
+        <div class="col-xs-3 offset-6-12">
+            <div class="pic morph">
+                <img id="item5" src="img/item5.jpg" alt="Reese's cup" title="mmmmm chocolate and peanut butter!" class="img-rounded img-responsive inventory-img" style="width:128px;height:128px">
+                <h5 id="itemTag5" style="text-align: center"></h5>
+
+            </div>
+
+        </div>
+        <div class="col-xs-3 offset-9-12">
+            <div class="pic morph">
+                <img id="item6" src="img/item6.jpg" alt="Mounds" title="Mounds" class="img-rounded img-responsive inventory-img" style="width:128px;height:128px">
+                <h5 id="itemTag6" style="text-align: center"></h5>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-3 offset-3-12">
+            <div class="pic morph">
+                <img onclick="" id="item7" src="img/item7.jpg" alt="Ultramet" title="Ultramet MRS" class="img-rounded img-responsive inventory-img" style="width:128px;height:128px">
+                <h5 id="itemTag7" style="text-align: center"></h5>
+
+            </div>
+
+        </div>
+        <div class="col-xs-3 offset-6-12">
+            <div class="pic morph">
+                <img id="item8" src="img/item8.jpg" alt="Snickers" title="Snickers" class="img-rounded img-responsive inventory-img" style="width:128px;height:128px">
+                <h5 id="itemTag8" style="text-align: center"></h5>
+
+            </div>
+
+        </div>
+        <div class="col-xs-3 offset-9-12">
+            <div class="pic morph">
+                <img id="item9" src="img/item9.jpg" alt="Thingamajig" title="Thingamajig" class="img-rounded img-responsive inventory-img" style="width:128px;height:128px">
+                <h5 id="itemTag9" style="text-align: center"></h5>
+
+            </div>
+
+        </div>
+    </div>
+</div>

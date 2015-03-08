@@ -1,0 +1,28 @@
+
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="modal fade insertMoneyModal" id="insertMoneyModal" tabindex="-1" role="dialog" aria-labelledby="insertMoneyModal" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <form>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="insertMoneyModal">Enter Amount to Insert</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="money" class="control-label">Money In:</label>
+                        <input type="text" class="form-control" id="moneySubmit" placeholder="Insert Money Here">
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" id="moneySubmit-button" class="btn btn-default" data-dismiss="modal">Insert Money</button>
+                    </div>                    
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
