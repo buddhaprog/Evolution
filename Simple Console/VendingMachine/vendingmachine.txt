@@ -1,0 +1,9 @@
+Candy::100::8
+Gum::100::10
+Chips::125::15
+Doughnuts::60::13
+Jerky::100::1
+Tuna Sand::300::5
+Pepto::500::5
+Hot Pocket::75::3
+Adult Diaper::450::3
