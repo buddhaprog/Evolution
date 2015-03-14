@@ -1,7 +1,7 @@
 Candy::100::8
 Gum::100::10
 Chips::125::15
-Doughnuts::60::13
+Doughnuts::60::12
 Jerky::100::1
 Tuna Sand::300::5
 Pepto::500::5
