@@ -12,11 +12,11 @@ import java.util.Scanner;
  * @author apprentice
  */
 public class FizzBuzz
-{public static void main(String[] args)
-    {
-        
-    
-     //Scanner sc = new Scanner(System.in);
+  {
+
+    public static void main(String[] args) {
+
+        //Scanner sc = new Scanner(System.in);
         int a = 0;
         int b = 100;
         int c = 1;
@@ -31,18 +31,18 @@ public class FizzBuzz
         for (i = a;
                 i <= b + 1;
                 i += c) {
-
-            if (i % 3 == 0) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println(i + "FizzBuzz");
+            }
+            else if (i % 3 == 0) {
                 System.out.println(i + "Fizz");
-            } if  (i% 5==0){
-                System.out.println(i + "Buzz");}
-            if (i%3 == 0 && i%5==0){
-                System.out.println(i +"FizzBuzz");}
-            else {
+            }
+            else if (i % 5 == 0) {
+                System.out.println(i + "Buzz");
+            } else {
                 System.out.println(i);
             }
-            
-            }
+
         }
     }
-  
+  }
