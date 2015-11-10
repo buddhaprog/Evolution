@@ -55,4 +55,9 @@ public class NonRepeatedCharacter {
         }
         return null ;
     }
+    
+     String name;
+
+  
+    
 } 
